@@ -9,7 +9,7 @@ spl_autoload_register(['Autoload', 'loader']);
 $asus = new \application\Asus('Intel',8192,3072,1,'Asus1');
 $asus->Start();
 $asus->PrintParametrs();
-//$asus->Shutdown();
+//$asus->Shutdown();ncvbn
 try {
     $asus->PrintParametrs();
 }catch(Exception $exception){
